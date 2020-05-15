@@ -1,0 +1,6 @@
+rust_pub
+/root/catkin_ws/devel/.private/rust_pub/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rust_pub/share/rust_pub/cmake/rust_pubConfig.cmake /root/catkin_ws/devel/share/rust_pub/cmake/rust_pubConfig.cmake
+/root/catkin_ws/devel/.private/rust_pub/share/rust_pub/cmake/rust_pubConfig-version.cmake /root/catkin_ws/devel/share/rust_pub/cmake/rust_pubConfig-version.cmake
+/root/catkin_ws/devel/.private/rust_pub/lib/rust_pub/rust_pub /root/catkin_ws/devel/lib/rust_pub/rust_pub
+/root/catkin_ws/devel/.private/rust_pub/lib/pkgconfig/rust_pub.pc /root/catkin_ws/devel/lib/pkgconfig/rust_pub.pc

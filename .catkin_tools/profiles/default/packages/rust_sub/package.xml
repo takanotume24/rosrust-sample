@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rust_sub</name>
+  <version>0.0.0</version>
+  <description>my 1st rosrust package</description>
+    <license>BSD</license>
+  <maintainer email="takanotume24@gmail.com">takanotume24</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
