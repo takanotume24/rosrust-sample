@@ -1,6 +1,10 @@
 use env_logger;
 use rosrust;
 
+mod msg {
+    rosrust::rosmsg_include!(pedsim_msgs / AgentState);
+}
+
 fn main() {
     env_logger::init();
 
@@ -20,11 +24,11 @@ fn main() {
     // Breaks when a shutdown signal is sent
     while rosrust::is_ok() {
         // Create string message
-        let mut msg = rosrust_msg::std_msgs::String::default();
-        msg.data = format!("hello world from rosrust {}", count);
+        let mut msg = msg::pedsim_msgs::AgentState::default();
+        msg.id = 24;
 
         // Log event
-        rosrust::ros_info!("Publishing: {}", msg.data);
+        rosrust::ros_info!("Publishing: {}", msg.id);
 
         // Send string message to topic via publisher
         chatter_pub.send(msg).unwrap();

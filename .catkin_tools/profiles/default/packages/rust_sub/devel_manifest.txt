@@ -3,4 +3,3 @@ rust_sub
 /root/catkin_ws/devel/.private/rust_sub/share/rust_sub/cmake/rust_subConfig-version.cmake /root/catkin_ws/devel/share/rust_sub/cmake/rust_subConfig-version.cmake
 /root/catkin_ws/devel/.private/rust_sub/share/rust_sub/cmake/rust_subConfig.cmake /root/catkin_ws/devel/share/rust_sub/cmake/rust_subConfig.cmake
 /root/catkin_ws/devel/.private/rust_sub/lib/pkgconfig/rust_sub.pc /root/catkin_ws/devel/lib/pkgconfig/rust_sub.pc
-/root/catkin_ws/devel/.private/rust_sub/lib/rust_sub/rust_sub /root/catkin_ws/devel/lib/rust_sub/rust_sub
